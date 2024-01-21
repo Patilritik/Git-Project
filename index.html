@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel= "stylesheet" href ="style.css">
+    <title>Git hub Repo</title>
+</head>
+<body>
+      <h2 class=" heading center">GIT HUB REPO PROJECT</h2>  
+
+      <div class="Serach center">
+            <label>Search Box</label>
+            <input type ="text" id="username" placeholder="Enter Github username">
+            <button onclick="{getRepo()}"> Serach</button>
+      </div>
+      
+      <!-- result section  -->
+      <div class="result">
+            <div id="loader" class="center"></div>
+            <div id="repositories"></div>
+            <div id="pagination"></div>
+      </div>
+      
+      <script src="repo.js"></script>
+</body>
+</html>
